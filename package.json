@@ -1,0 +1,92 @@
+{
+  "name": "stylelint-config-clicknow",
+  "version": "0.0.0-semantically-released",
+  "description": "JSCS shareable config for ClickNow",
+  "keywords": [
+    "jscs",
+    "jscs-config",
+    "jscs-rules",
+    "javascript",
+    "config",
+    "preset",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "validate",
+    "code style",
+    "standard",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce"
+  ],
+  "homepage": "https://github.com/cknow/stylelint-config-clicknow",
+  "bugs": {
+    "url": "https://github.com/cknow/stylelint-config-clicknow/issues",
+    "email": "ricardo@clicknow.com.br"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Ricardo Gobbo de Souza",
+    "email": "ricardogobbosouza@yahoo.com.br",
+    "role": "Developer"
+  },
+  "files": [
+    "index.js",
+    "rules"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cknow/stylelint-config-clicknow"
+  },
+  "scripts": {
+    "check-coverage": "nyc check-coverage --global 100",
+    "commit": "git-cz",
+    "commitmsg": "validate-commit-msg",
+    "cover": "nyc --reporter lcov --reporter text ava",
+    "lint": "eslint index.js rules/ test/",
+    "postest": "npm run check-coverage",
+    "precommit": "npm run lint",
+    "precover": "rimraf .nyc_output coverage",
+    "prepush": "npm t",
+    "pretest": "npm run lint",
+    "report-coverage": "cat ./coverage/lcov.info | coveralls",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "test": "npm run cover",
+    "watch": "nodemon --exec npm t"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "commitizen": "^2.9.6",
+    "coveralls": "^2.13.1",
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^3.19.0",
+    "eslint-config-clicknow": "^1.17.0",
+    "eslint-plugin-ava": "^4.2.0",
+    "husky": "^0.13.3",
+    "stylelint": "^7.10.1",
+    "nodemon": "^1.11.0",
+    "nyc": "^10.2.0",
+    "rimraf": "^2.6.1",
+    "semantic-release": "^6.3.2",
+    "validate-commit-msg": "^2.12.1"
+  },
+  "peerDependencies": {
+    "stylelint": ">=7.10"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=3"
+  },
+  "preferGlobal": false,
+  "private": false
+}
