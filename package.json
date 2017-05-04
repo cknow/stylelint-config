@@ -1,12 +1,12 @@
 {
   "name": "stylelint-config-clicknow",
   "version": "0.0.0-semantically-released",
-  "description": "JSCS shareable config for ClickNow",
+  "description": "StyleLint shareable config for ClickNow",
   "keywords": [
-    "jscs",
-    "jscs-config",
-    "jscs-rules",
-    "javascript",
+    "stylelint",
+    "stylelint-config",
+    "stylelint-rules",
+    "css",
     "config",
     "preset",
     "code",
