@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = {
+    defaultSeverity: '"error',
     extends: [
         './rules/at-rule.js',
         './rules/block.js',
@@ -20,7 +21,6 @@ module.exports = {
         './rules/media-query-list.js',
         './rules/number.js',
         './rules/property.js',
-        './rules/root-rule.js',
         './rules/rule.js',
         './rules/selector.js',
         './rules/selector-list.js',

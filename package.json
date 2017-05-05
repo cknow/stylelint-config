@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-clicknow",
-  "version": "0.0.0-semantically-released",
+  "version": "1.0.0",
   "description": "StyleLint shareable config for ClickNow",
   "keywords": [
     "stylelint",
@@ -73,11 +73,12 @@
     "eslint-config-clicknow": "^1.17.0",
     "eslint-plugin-ava": "^4.2.0",
     "husky": "^0.13.3",
-    "stylelint": "^7.10.1",
     "nodemon": "^1.11.0",
     "nyc": "^10.2.0",
     "rimraf": "^2.6.1",
     "semantic-release": "^6.3.2",
+    "stylelint": "^7.10.1",
+    "temp-write": "^3.2.0",
     "validate-commit-msg": "^2.12.1"
   },
   "peerDependencies": {
