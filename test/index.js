@@ -5,7 +5,7 @@ import stylelint from 'stylelint';
 import tempWrite from 'temp-write';
 
 const runStyleLint = text => stylelint.lint({
-    configFile: require.resolve('../'),
+    config: require('../'),
     files: [tempWrite.sync(text)]
 });
 
