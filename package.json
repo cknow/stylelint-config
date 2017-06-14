@@ -49,7 +49,7 @@
     "commitmsg": "validate-commit-msg",
     "cover": "nyc --reporter lcov --reporter text ava",
     "lint": "eslint index.js rules/ test/",
-    "postest": "npm run check-coverage",
+    "posttest": "npm run check-coverage",
     "precommit": "npm run lint",
     "precover": "rimraf .nyc_output coverage",
     "prepush": "npm t",
@@ -66,26 +66,26 @@
   },
   "devDependencies": {
     "ava": "^0.19.1",
-    "babel-core": "^6.24.1",
+    "babel-core": "^6.25.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.5.2",
     "commitizen": "^2.9.6",
     "coveralls": "^2.13.1",
     "cz-conventional-changelog": "^2.0.0",
-    "eslint": "^3.19.0",
-    "eslint-config-clicknow": "^1.18.0",
+    "eslint": "^4.0.0",
+    "eslint-config-clicknow": "^1.19.0",
     "eslint-plugin-ava": "^4.2.0",
     "husky": "^0.13.4",
     "nodemon": "^1.11.0",
     "nyc": "^11.0.2",
     "rimraf": "^2.6.1",
     "semantic-release": "^6.3.6",
-    "stylelint": "^7.10.1",
+    "stylelint": "^7.11.0",
     "temp-write": "^3.3.0",
-    "validate-commit-msg": "^2.12.1"
+    "validate-commit-msg": "^2.12.2"
   },
   "peerDependencies": {
-    "stylelint": ">=7.10.1"
+    "stylelint": ">=7.11.0"
   },
   "engines": {
     "node": ">=4",
