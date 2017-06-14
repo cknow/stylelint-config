@@ -13,6 +13,7 @@ module.exports = {
         'selector-combinator-space-before': 'always',
         'selector-descendant-combinator-no-non-space': true,
         'selector-id-pattern': null,
+        'selector-max-class': 4,
         'selector-max-compound-selectors': null,
         'selector-max-specificity': null,
         'selector-nested-pattern': null,
