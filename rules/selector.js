@@ -13,16 +13,21 @@ module.exports = {
         'selector-combinator-space-before': 'always',
         'selector-descendant-combinator-no-non-space': true,
         'selector-id-pattern': null,
+        'selector-max-attribute': 4,
         'selector-max-class': 4,
-        'selector-max-compound-selectors': null,
-        'selector-max-specificity': null,
+        'selector-max-combinators': 4,
+        'selector-max-compound-selectors': 4,
+        'selector-max-empty-lines': 0,
+        'selector-max-id': 4,
+        'selector-max-specificity': '4,4,4',
+        'selector-max-type': [4, {
+            ignore: ['compounded', 'descendant']
+        }],
+        'selector-max-universal': 4,
         'selector-nested-pattern': null,
-        'selector-no-attribute': null,
-        'selector-no-combinator': null,
-        'selector-no-id': null,
-        'selector-no-qualifying-type': null,
-        'selector-no-type': null,
-        'selector-no-universal': null,
+        'selector-no-qualifying-type': [true, {
+            ignore: ['attribute', 'class', 'id']
+        }],
         'selector-no-vendor-prefix': true,
         'selector-pseudo-class-blacklist': null,
         'selector-pseudo-class-case': 'lower',
@@ -33,7 +38,6 @@ module.exports = {
         'selector-pseudo-element-colon-notation': 'single',
         'selector-pseudo-element-no-unknown': true,
         'selector-type-case': 'lower',
-        'selector-type-no-unknown': true,
-        'selector-max-empty-lines': 0
+        'selector-type-no-unknown': true
     }
 };
