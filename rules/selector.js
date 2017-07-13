@@ -13,7 +13,9 @@ module.exports = {
         'selector-combinator-space-before': 'always',
         'selector-descendant-combinator-no-non-space': true,
         'selector-id-pattern': null,
-        'selector-max-attribute': 4,
+        'selector-max-attribute': [4, {
+            ignoreAttributes: []
+        }],
         'selector-max-class': 4,
         'selector-max-combinators': 4,
         'selector-max-compound-selectors': 4,
