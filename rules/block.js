@@ -9,7 +9,7 @@ module.exports = {
         'block-closing-brace-space-before': 'always-single-line',
         'block-no-empty': true,
         'block-opening-brace-newline-after': 'always-multi-line',
-        'block-opening-brace-newline-before': 'always-single-line',
+        'block-opening-brace-newline-before': null,
         'block-opening-brace-space-after': 'always-single-line',
         'block-opening-brace-space-before': 'always'
     }
