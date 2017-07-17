@@ -13,9 +13,7 @@ module.exports = {
         'selector-combinator-space-before': 'always',
         'selector-descendant-combinator-no-non-space': true,
         'selector-id-pattern': null,
-        'selector-max-attribute': [4, {
-            ignoreAttributes: []
-        }],
+        'selector-max-attribute': 4,
         'selector-max-class': 4,
         'selector-max-combinators': 4,
         'selector-max-compound-selectors': 4,
@@ -23,7 +21,7 @@ module.exports = {
         'selector-max-id': 4,
         'selector-max-specificity': '4,4,4',
         'selector-max-type': [4, {
-            ignore: ['compounded', 'descendant']
+            ignore: ['child', 'compounded', 'descendant']
         }],
         'selector-max-universal': 4,
         'selector-nested-pattern': null,
