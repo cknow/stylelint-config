@@ -19,7 +19,9 @@ module.exports = {
         'selector-max-compound-selectors': 4,
         'selector-max-empty-lines': 0,
         'selector-max-id': 4,
-        'selector-max-specificity': '4,4,4',
+        'selector-max-specificity': ['4,4,4', {
+            ignoreSelectors: []
+        }],
         'selector-max-type': [4, {
             ignore: ['child', 'compounded', 'descendant']
         }],

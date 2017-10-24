@@ -80,12 +80,12 @@
     "nyc": "^11.2.1",
     "rimraf": "^2.6.2",
     "semantic-release": "^8.2.0",
-    "stylelint": "^8.1.1",
+    "stylelint": "^8.2.0",
     "temp-write": "^3.3.0",
     "validate-commit-msg": "^2.14.0"
   },
   "peerDependencies": {
-    "stylelint": ">=8.1.1"
+    "stylelint": ">=8.2.0"
   },
   "engines": {
     "node": ">=4",
