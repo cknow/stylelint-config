@@ -2,6 +2,8 @@
 
 module.exports = {
     rules: {
-        'length-zero-no-unit': true
+        'length-zero-no-unit': [true, {
+            ignore: []
+        }]
     }
 };
