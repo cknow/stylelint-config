@@ -5,6 +5,8 @@ module.exports = {
         'value-keyword-case': ['lower', {
             ignoreKeywords: []
         }],
-        'value-no-vendor-prefix': true
+        'value-no-vendor-prefix': [true, {
+            ignoreValues: []
+        }]
     }
 };
