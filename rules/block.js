@@ -2,7 +2,9 @@
 
 module.exports = {
     rules: {
-        'block-closing-brace-empty-line-before': 'never',
+        'block-closing-brace-empty-line-before': ['never', {
+            except: ['after-closing-brace']
+        }],
         'block-closing-brace-newline-after': 'always',
         'block-closing-brace-newline-before': 'always-multi-line',
         'block-closing-brace-space-after': 'always-single-line',
