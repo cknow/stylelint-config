@@ -10,7 +10,8 @@ module.exports = {
                 'blockless-after-same-name-blockless',
                 'blockless-after-blockless',
                 'first-nested'
-            ]
+            ],
+            ignore: []
         }],
         'at-rule-name-case': 'lower',
         'at-rule-name-newline-after': 'always-multi-line',
