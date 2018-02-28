@@ -1,4 +1,5 @@
 # StyleLint Config
+
 > StyleLint [shareable config](https://stylelint.io/user-guide/cli/)
 
 [![NPM Version](https://img.shields.io/npm/v/@cknow/stylelint-config.svg)](https://www.npmjs.com/package/@cknow/stylelint-config)
@@ -9,7 +10,10 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/5xw04qn16e40n6i7/branch/master?svg=true)](https://ci.appveyor.com/project/cknow/stylelint-config/branch/master)
 [![Coverage Status](https://coveralls.io/repos/github/cknow/stylelint-config/badge.svg?branch=master)](https://coveralls.io/github/cknow/stylelint-config?branch=master)
 
-[![Dependency Status](https://dependencyci.com/github/cknow/stylelint-config/badge)](https://dependencyci.com/github/cknow/stylelint-config)
+[![Code Climate](https://codeclimate.com/github/cknow/stylelint-config/badges/gpa.svg)](https://codeclimate.com/github/cknow/stylelint-config)
+[![Test Coverage](https://codeclimate.com/github/cknow/stylelint-config/badges/coverage.svg)](https://codeclimate.com/github/cknow/stylelint-config/coverage)
+[![Issue Count](https://codeclimate.com/github/cknow/stylelint-config/badges/issue_count.svg)](https://codeclimate.com/github/cknow/stylelint-config)
+
 [![Dependencies Status](https://david-dm.org/cknow/stylelint-config/status.svg)](https://david-dm.org/cknow/stylelint-config)
 [![devDependencies Status](https://david-dm.org/cknow/stylelint-config/dev-status.svg)](https://david-dm.org/cknow/stylelint-config?type=dev)
 [![peerDependencies Status](https://david-dm.org/cknow/stylelint-config/peer-status.svg)](https://david-dm.org/cknow/stylelint-config?type=peer)
@@ -22,24 +26,25 @@
 
 ## Install
 
-```
+```bash
 npm install --save-dev @cknow/stylelint-config
 ```
 
 ## Usage
+
 > StyleLint [configuration](https://stylelint.io/user-guide/configuration/)
 
 Add some StyleLint config to your `.stylelintrc`:
 
-```
+```json
 {
-    extends: "@cknow/stylelint-config"
+    "extends": "@cknow/stylelint-config"
 }
 ```
 
 ## Usage direct on command line
 
-```
+```bash
 stylelint --config ./node_modules/@cknow/stylelint-config/index.js
 ```
 
