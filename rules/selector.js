@@ -12,6 +12,7 @@ module.exports = {
         'selector-combinator-blacklist': null,
         'selector-combinator-space-after': 'always',
         'selector-combinator-space-before': 'always',
+        'selector-combinator-whitelist': null,
         'selector-descendant-combinator-no-non-space': true,
         'selector-id-pattern': null,
         'selector-max-attribute': 4,
