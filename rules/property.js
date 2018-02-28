@@ -5,7 +5,9 @@ module.exports = {
         'property-blacklist': null,
         'property-case': 'lower',
         'property-no-unknown': true,
-        'property-no-vendor-prefix': true,
+        'property-no-vendor-prefix': [true, {
+            ignoreProperties: []
+        }],
         'property-whitelist': null
     }
 };
