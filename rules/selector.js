@@ -9,6 +9,7 @@ module.exports = {
         'selector-attribute-operator-whitelist': null,
         'selector-attribute-quotes': 'always',
         'selector-class-pattern': null,
+        'selector-combinator-blacklist': null,
         'selector-combinator-space-after': 'always',
         'selector-combinator-space-before': 'always',
         'selector-descendant-combinator-no-non-space': true,
