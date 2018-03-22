@@ -66,9 +66,6 @@
   "devDependencies": {
     "@cknow/eslint-config": "^2.10.0",
     "ava": "^0.25.0",
-    "babel-core": "^6.26.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.6.1",
     "commitizen": "^2.9.6",
     "coveralls": "^3.0.0",
     "cz-conventional-changelog": "^2.1.0",
