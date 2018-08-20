@@ -21,6 +21,7 @@ module.exports = {
         'selector-max-compound-selectors': 4,
         'selector-max-empty-lines': 0,
         'selector-max-id': 4,
+        'selector-max-pseudo-class': 2,
         'selector-max-specificity': ['4,4,4', {
             ignoreSelectors: []
         }],
