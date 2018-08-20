@@ -13,9 +13,9 @@ env:
     - CC_TEST_REPORTER_ID=35284936940eeac454abc068be878e084cbbf767890f25fe4c1a6389626b6073
 
 node_js:
+  - 10
   - 9
   - 8
-  - 7
   - 6
 
 install:
