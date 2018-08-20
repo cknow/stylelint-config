@@ -8,6 +8,7 @@ module.exports = {
         'media-feature-name-case': 'lower',
         'media-feature-name-no-unknown': true,
         'media-feature-name-no-vendor-prefix': true,
+        'media-feature-name-value-whitelist': null,
         'media-feature-name-whitelist': null,
         'media-feature-parentheses-space-inside': 'never',
         'media-feature-range-operator-space-after': 'always',
