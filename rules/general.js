@@ -12,6 +12,7 @@ module.exports = {
         'no-descending-specificity': true,
         'no-duplicate-at-import-rules': true,
         'no-duplicate-selectors': true,
+        'no-empty-first-line': true,
         'no-empty-source': true,
         'no-eol-whitespace': true,
         'no-extra-semicolons': true,
