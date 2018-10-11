@@ -2,7 +2,9 @@
 
 module.exports = {
     rules: {
-        'indentation': 4,
+        'indentation': [4, {
+            baseIndentLevel: 1
+        }],
         'linebreaks': 'unix',
         'max-empty-lines': 1,
         'max-line-length': 120,
