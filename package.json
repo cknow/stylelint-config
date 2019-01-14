@@ -36,6 +36,7 @@
   },
   "files": [
     "index.js",
+    "scss.js",
     "rules"
   ],
   "main": "index.js",
@@ -73,6 +74,7 @@
     "nyc": "^13.1.0",
     "rimraf": "^2.6.3",
     "stylelint": "^9.9.0",
+    "stylelint-scss": "^3.5.0",
     "temp-write": "^3.4.0"
   },
   "peerDependencies": {

@@ -48,3 +48,21 @@ stylelint --config ./node_modules/@cknow/stylelint-config/index.js
 ```
 
 > **Note:** It is not necessary to create the `.stylelintrc` file.
+
+## Scss
+
+> styleLint-scss [configuration](https://github.com/kristerkari/stylelint-scss)
+
+Install
+
+```bash
+npm install --save-dev stylelint-scss
+```
+
+Add some StyleLint config to your `.stylelintrc`:
+
+```json
+{
+    "extends": "@cknow/stylelint-config/scss"
+}
+```
