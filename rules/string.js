@@ -3,6 +3,8 @@
 module.exports = {
     rules: {
         'string-no-newline': true,
-        'string-quotes': 'single'
+        'string-quotes': ['single', {
+            avoidEscape: false
+        }]
     }
 };

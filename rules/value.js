@@ -3,7 +3,8 @@
 module.exports = {
     rules: {
         'value-keyword-case': ['lower', {
-            ignoreKeywords: []
+            ignoreKeywords: [],
+            ignoreProperties: []
         }],
         'value-no-vendor-prefix': [true, {
             ignoreValues: []

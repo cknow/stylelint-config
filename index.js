@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    defaultSeverity: '"error',
+    defaultSeverity: 'error',
     extends: [
         './rules/at-rule.js',
         './rules/block.js',

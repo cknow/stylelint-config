@@ -2,8 +2,12 @@
 
 module.exports = {
     rules: {
-        'declaration-block-no-duplicate-properties': true,
-        'declaration-block-no-redundant-longhand-properties': true,
+        'declaration-block-no-duplicate-properties': [true, {
+            ignore: ['consecutive-duplicates-with-different-values']
+        }],
+        'declaration-block-no-redundant-longhand-properties': [true, {
+            ignoreShorthands: []
+        }],
         'declaration-block-no-shorthand-property-overrides': true,
         'declaration-block-semicolon-newline-after': 'always',
         'declaration-block-semicolon-newline-before': 'never-multi-line',

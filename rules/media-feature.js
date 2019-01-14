@@ -6,7 +6,9 @@ module.exports = {
         'media-feature-colon-space-before': 'never',
         'media-feature-name-blacklist': null,
         'media-feature-name-case': 'lower',
-        'media-feature-name-no-unknown': true,
+        'media-feature-name-no-unknown': [true, {
+            ignoreMediaFeatureNames: []
+        }],
         'media-feature-name-no-vendor-prefix': true,
         'media-feature-name-value-whitelist': null,
         'media-feature-name-whitelist': null,

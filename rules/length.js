@@ -3,7 +3,7 @@
 module.exports = {
     rules: {
         'length-zero-no-unit': [true, {
-            ignore: []
+            ignore: ['custom-properties']
         }]
     }
 };

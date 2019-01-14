@@ -2,6 +2,8 @@
 
 module.exports = {
     rules: {
-        'font-weight-notation': 'named-where-possible'
+        'font-weight-notation': ['numeric', {
+            ignore: []
+        }]
     }
 };

@@ -15,34 +15,49 @@ module.exports = {
         'selector-combinator-whitelist': null,
         'selector-descendant-combinator-no-non-space': true,
         'selector-id-pattern': null,
-        'selector-max-attribute': 4,
+        'selector-max-attribute': [4, {
+            ignoreAttributes: []
+        }],
         'selector-max-class': 4,
         'selector-max-combinators': 4,
         'selector-max-compound-selectors': 4,
         'selector-max-empty-lines': 0,
         'selector-max-id': 4,
-        'selector-max-pseudo-class': 2,
+        'selector-max-pseudo-class': 4,
         'selector-max-specificity': ['4,4,4', {
             ignoreSelectors: []
         }],
         'selector-max-type': [4, {
-            ignore: ['child', 'compounded', 'descendant']
+            ignore: ['child', 'compounded', 'descendant'],
+            ignoreTypes: []
         }],
         'selector-max-universal': 4,
         'selector-nested-pattern': null,
         'selector-no-qualifying-type': [true, {
             ignore: ['attribute', 'class', 'id']
         }],
-        'selector-no-vendor-prefix': true,
+        'selector-no-vendor-prefix': [true, {
+            ignoreSelectors: []
+        }],
         'selector-pseudo-class-blacklist': null,
         'selector-pseudo-class-case': 'lower',
-        'selector-pseudo-class-no-unknown': true,
+        'selector-pseudo-class-no-unknown': [true, {
+            ignorePseudoClasses: []
+        }],
         'selector-pseudo-class-parentheses-space-inside': 'never',
         'selector-pseudo-class-whitelist': null,
         'selector-pseudo-element-case': 'lower',
         'selector-pseudo-element-colon-notation': 'single',
-        'selector-pseudo-element-no-unknown': true,
-        'selector-type-case': 'lower',
-        'selector-type-no-unknown': true
+        'selector-pseudo-element-no-unknown': [true, {
+            ignorePseudoElements: []
+        }],
+        'selector-type-case': ['lower', {
+            ignoreTypes: []
+        }],
+        'selector-type-no-unknown': [true, {
+            ignore: [],
+            ignoreNamespaces: [],
+            ignoreTypes: []
+        }]
     }
 };
