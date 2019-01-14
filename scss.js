@@ -32,7 +32,7 @@ module.exports = {
         'scss/at-mixin-pattern': null,
         'at-rule-no-unknown': null,
         'scss/at-rule-no-unknown': true,
-        'scss/dollar-variable-colon-newline-after': 'always-multi-line',
+        'scss/dollar-variable-colon-newline-after': null,
         'scss/dollar-variable-colon-space-after': 'always-single-line',
         'scss/dollar-variable-colon-space-before': 'never',
         'scss/dollar-variable-default': [true, {
