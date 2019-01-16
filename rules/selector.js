@@ -28,7 +28,7 @@ module.exports = {
             ignoreSelectors: []
         }],
         'selector-max-type': [4, {
-            ignore: ['child', 'compounded', 'descendant'],
+            ignore: ['child', 'compounded', 'descendant', 'next-sibling'],
             ignoreTypes: []
         }],
         'selector-max-universal': 4,
