@@ -3,6 +3,7 @@
 module.exports = {
     rules: {
         'function-blacklist': null,
+        'function-calc-no-invalid': true,
         'function-calc-no-unspaced-operator': true,
         'function-comma-newline-after': 'always-multi-line',
         'function-comma-newline-before': 'never-multi-line',
