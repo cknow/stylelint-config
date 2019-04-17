@@ -25,6 +25,7 @@ module.exports = {
             ignoreAtRules: []
         }],
         'at-rule-no-vendor-prefix': true,
+        'at-rule-property-requirelist': null,
         'at-rule-semicolon-newline-after': 'always',
         'at-rule-semicolon-space-before': 'never',
         'at-rule-whitelist': null
