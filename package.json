@@ -81,7 +81,7 @@
     "stylelint": ">=9.10.0"
   },
   "engines": {
-    "node": ">=6",
+    "node": ">=8",
     "npm": ">=3"
   },
   "private": false,
