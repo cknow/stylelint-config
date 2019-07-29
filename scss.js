@@ -78,6 +78,7 @@ module.exports = {
         'scss/operator-no-unspaced': true,
         'scss/partial-no-import': null,
         'scss/selector-no-redundant-nesting-selector': true,
+        'scss/selector-no-union-class-name': true,
         'scss/no-dollar-variables': null,
         'scss/no-duplicate-dollar-variables': [true, {
             ignoreInside: [
