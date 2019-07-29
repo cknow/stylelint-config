@@ -74,6 +74,7 @@ module.exports = {
         'scss/function-color-relative': true,
         'scss/function-quote-no-quoted-strings-inside': true,
         'scss/function-unquote-no-unquoted-strings-inside': true,
+        'scss/map-keys-quotes': true,
         'scss/media-feature-value-dollar-variable': 'always',
         'scss/operator-no-newline-after': true,
         'scss/operator-no-newline-before': true,
