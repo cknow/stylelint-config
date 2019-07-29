@@ -70,6 +70,7 @@ module.exports = {
             except: []
         }],
         'scss/declaration-nested-properties-no-divided-groups': true,
+        'scss/function-color-relative': true,
         'scss/function-quote-no-quoted-strings-inside': true,
         'scss/function-unquote-no-unquoted-strings-inside': true,
         'scss/media-feature-value-dollar-variable': 'always',
