@@ -1,94 +1,28 @@
 'use strict';
 
 module.exports = {
-    extends: [
-        require.resolve('./')
-    ],
     plugins: [
         'stylelint-scss'
     ],
-    rules: {
-        'scss/at-each-key-value-single-line': true,
-        'scss/at-else-closing-brace-newline-after': 'always-last-in-chain',
-        'scss/at-else-closing-brace-space-after': 'always-intermediate',
-        'scss/at-else-empty-line-before': 'never',
-        'scss/at-else-if-parentheses-space-before': 'always',
-        'scss/at-if-closing-brace-newline-after': 'always-last-in-chain',
-        'scss/at-if-closing-brace-space-after': 'always-intermediate',
-        'scss/at-extend-no-missing-placeholder': true,
-        'scss/at-function-named-arguments': ['never', {
-            ignore: [],
-            ignoreFunctions: []
-        }],
-        'scss/at-function-parentheses-space-before': 'never',
-        'scss/at-function-pattern': null,
-        'scss/at-import-no-partial-leading-underscore': true,
-        'scss/at-import-partial-extension-blacklist': null,
-        'scss/at-import-partial-extension-whitelist': null,
-        'scss/at-mixin-argumentless-call-parentheses': 'always',
-        'scss/at-mixin-named-arguments': ['never', {
-            ignore: []
-        }],
-        'scss/at-mixin-parentheses-space-before': 'never',
-        'scss/at-mixin-pattern': null,
-        'at-rule-no-unknown': null,
-        'scss/at-rule-no-unknown': true,
-        'scss/comment-no-loud': true,
-        'scss/dollar-variable-colon-newline-after': null,
-        'scss/dollar-variable-colon-space-after': 'always-single-line',
-        'scss/dollar-variable-colon-space-before': 'never',
-        'scss/dollar-variable-default': [true, {
-            ignore: 'local'
-        }],
-        'scss/dollar-variable-empty-line-before': ['always', {
-            except: [
-                'first-nested',
-                'after-comment',
-                'after-dollar-variable'
-            ],
-            ignore: [
-                'after-comment',
-                'inside-single-line-block'
-            ]
-        }],
-        'scss/dollar-variable-no-missing-interpolation': true,
-        'scss/dollar-variable-pattern': null,
-        'scss/percent-placeholder-pattern': null,
-        'scss/double-slash-comment-empty-line-before': ['always', {
-            except: [
-                'first-nested'
-            ],
-            ignore: [
-                'between-comments',
-                'stylelint-commands'
-            ]
-        }],
-        'scss/double-slash-comment-inline': ['never', {
-            ignore: []
-        }],
-        'scss/double-slash-comment-whitespace-inside': 'always',
-        'scss/declaration-nested-properties': ['never', {
-            except: []
-        }],
-        'scss/declaration-nested-properties-no-divided-groups': true,
-        'scss/function-color-relative': true,
-        'scss/function-quote-no-quoted-strings-inside': true,
-        'scss/function-unquote-no-unquoted-strings-inside': true,
-        'scss/map-keys-quotes': true,
-        'scss/media-feature-value-dollar-variable': 'always',
-        'scss/operator-no-newline-after': true,
-        'scss/operator-no-newline-before': true,
-        'scss/operator-no-unspaced': true,
-        'scss/partial-no-import': null,
-        'scss/selector-no-redundant-nesting-selector': true,
-        'scss/selector-no-union-class-name': true,
-        'scss/no-dollar-variables': null,
-        'scss/no-duplicate-dollar-variables': [true, {
-            ignoreInside: [
-                'at-rule',
-                'nested-at-rule'
-            ],
-            ignoreInsideAtRules: []
-        }]
-    }
+    extends: [
+        './',
+        './rules/scss/comment.js',
+        './rules/scss/declaration.js',
+        './rules/scss/each.js',
+        './rules/scss/else.js',
+        './rules/scss/extend.js',
+        './rules/scss/function.js',
+        './rules/scss/general.js',
+        './rules/scss/if.js',
+        './rules/scss/import.js',
+        './rules/scss/map.js',
+        './rules/scss/media-feature.js',
+        './rules/scss/mixin.js',
+        './rules/scss/operator.js',
+        './rules/scss/partial.js',
+        './rules/scss/placeholder.js',
+        './rules/scss/rule.js',
+        './rules/scss/selector.js',
+        './rules/scss/variable.js'
+    ].map(require.resolve)
 };
