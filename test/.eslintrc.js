@@ -1,3 +1,3 @@
 module.exports = {
-    extends: '@datalogix/eslint-config/plugins/ava'
-};
+  extends: '@datalogix/eslint-config/plugins/ava'
+}
