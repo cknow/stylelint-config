@@ -22,7 +22,7 @@ Add some StyleLint config to your `.stylelintrc`:
 
 ```json
 {
-    "extends": "@datalogix/stylelint-config"
+  "extends": "@datalogix/stylelint-config"
 }
 ```
 
@@ -48,6 +48,6 @@ Add some StyleLint config to your `.stylelintrc`:
 
 ```json
 {
-    "extends": "@datalogix/stylelint-config/scss"
+  "extends": "@datalogix/stylelint-config/scss"
 }
 ```
