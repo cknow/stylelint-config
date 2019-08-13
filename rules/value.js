@@ -1,13 +1,11 @@
-'use strict';
-
 module.exports = {
-    rules: {
-        'value-keyword-case': ['lower', {
-            ignoreKeywords: [],
-            ignoreProperties: []
-        }],
-        'value-no-vendor-prefix': [true, {
-            ignoreValues: []
-        }]
-    }
-};
+  rules: {
+    'value-keyword-case': ['lower', {
+      ignoreKeywords: [],
+      ignoreProperties: []
+    }],
+    'value-no-vendor-prefix': [true, {
+      ignoreValues: []
+    }]
+  }
+}

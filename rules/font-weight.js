@@ -1,9 +1,7 @@
-'use strict';
-
 module.exports = {
-    rules: {
-        'font-weight-notation': ['numeric', {
-            ignore: []
-        }]
-    }
-};
+  rules: {
+    'font-weight-notation': ['numeric', {
+      ignore: []
+    }]
+  }
+}

@@ -1,10 +1,8 @@
-'use strict';
-
 module.exports = {
-    rules: {
-        'string-no-newline': true,
-        'string-quotes': ['single', {
-            avoidEscape: false
-        }]
-    }
-};
+  rules: {
+    'string-no-newline': true,
+    'string-quotes': ['single', {
+      avoidEscape: false
+    }]
+  }
+}

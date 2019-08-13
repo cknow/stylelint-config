@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-    rules: {
-        'custom-media-pattern': null
-    }
-};
+  rules: {
+    'custom-media-pattern': null
+  }
+}

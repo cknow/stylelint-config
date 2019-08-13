@@ -1,5 +1,5 @@
 {
-  "name": "@cknow/stylelint-config",
+  "name": "@datalogix/stylelint-config",
   "version": "0.0.0-semantically-released",
   "description": "StyleLint shareable config",
   "keywords": [
@@ -23,10 +23,10 @@
     "verify",
     "enforce"
   ],
-  "homepage": "https://github.com/cknow/stylelint-config",
+  "homepage": "https://github.com/datalogix/stylelint-config",
   "bugs": {
-    "url": "https://github.com/cknow/stylelint-config/issues",
-    "email": "ricardo@clicknow.com.br"
+    "url": "https://github.com/datalogix/stylelint-config/issues",
+    "email": "developer@datalogix.com.br"
   },
   "license": "MIT",
   "author": {
@@ -42,7 +42,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cknow/stylelint-config.git"
+    "url": "https://github.com/datalogix/stylelint-config.git"
   },
   "scripts": {
     "check-coverage": "nyc check-coverage --global 100",
@@ -52,33 +52,28 @@
     "postcoverage": "npm run check-coverage",
     "precoverage": "rimraf .nyc_output coverage",
     "pretest": "npm run lint",
-    "report-coverage": "cat ./coverage/lcov.info | coveralls",
+    "report-coverage": "codecov",
     "test": "npm run coverage",
     "watch": "ava --watch"
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "devDependencies": {
-    "@cknow/eslint-config": "^4.1.0",
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
     "@commitlint/prompt-cli": "^8.1.0",
+    "@datalogix/eslint-config": "^6.0.0",
     "ava": "^2.2.0",
-    "coveralls": "^3.0.5",
+    "codecov": "^3.5.0",
     "eslint": "^6.1.0",
     "eslint-plugin-ava": "^7.1.0",
-    "husky": "^3.0.2",
+    "husky": "^3.0.3",
     "nyc": "^14.1.1",
     "rimraf": "^2.6.3",
     "stylelint": "^10.1.0",
-    "stylelint-scss": "^3.9.2",
+    "stylelint-scss": "^3.9.3",
     "temp-write": "^4.0.0"
   },
   "peerDependencies": {
-    "stylelint": ">=10.0.0"
+    "stylelint": ">=10"
   },
   "engines": {
     "node": ">=8"

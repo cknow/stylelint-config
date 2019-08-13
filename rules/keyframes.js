@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-    rules: {
-        'keyframes-name-pattern': null
-    }
-};
+  rules: {
+    'keyframes-name-pattern': null
+  }
+}

@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-    rules: {
-        'shorthand-property-no-redundant-values': true
-    }
-};
+  rules: {
+    'shorthand-property-no-redundant-values': true
+  }
+}

@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-    rules: {
-        'scss/at-extend-no-missing-placeholder': true
-    }
-};
+  rules: {
+    'scss/at-extend-no-missing-placeholder': true
+  }
+}

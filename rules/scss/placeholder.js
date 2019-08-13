@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-    rules: {
-        'scss/percent-placeholder-pattern': null
-    }
-};
+  rules: {
+    'scss/percent-placeholder-pattern': null
+  }
+}

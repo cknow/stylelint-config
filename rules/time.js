@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-    rules: {
-        'time-min-milliseconds': 100
-    }
-};
+  rules: {
+    'time-min-milliseconds': 100
+  }
+}
