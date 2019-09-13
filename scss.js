@@ -6,6 +6,7 @@ module.exports = {
     './',
     './rules/scss/comment.js',
     './rules/scss/declaration.js',
+    './rules/scss/dimension.js',
     './rules/scss/each.js',
     './rules/scss/else.js',
     './rules/scss/extend.js',
