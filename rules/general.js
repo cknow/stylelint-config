@@ -1,6 +1,6 @@
 module.exports = {
   rules: {
-    'indentation': [4, {
+    'indentation': [2, {
       baseIndentLevel: 1,
       indentClosingBrace: false,
       except: [],
