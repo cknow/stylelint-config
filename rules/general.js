@@ -17,7 +17,9 @@ module.exports = {
       ignore: ['blockless-at-rules', 'pseudo-classes'],
       ignoreAtRules: []
     }],
-    'no-descending-specificity': true,
+    'no-descending-specificity': [true, {
+      ignore: ['selectors-within-list']
+    }],
     'no-duplicate-at-import-rules': true,
     'no-duplicate-selectors': [true, {
       disallowInList: false
@@ -30,6 +32,7 @@ module.exports = {
     'no-extra-semicolons': true,
     'no-invalid-double-slash-comments': true,
     'no-missing-end-of-source-newline': true,
-    'no-unknown-animations': true
+    'no-unknown-animations': true,
+    'unicode-bom': 'never'
   }
 }
