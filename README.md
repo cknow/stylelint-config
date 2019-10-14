@@ -1,4 +1,4 @@
-# StyleLint Config
+# Stylelint Config
 
 [![Version](https://img.shields.io/npm/v/@datalogix/stylelint-config.svg)](https://www.npmjs.com/package/@datalogix/stylelint-config)
 [![Downloads](https://img.shields.io/npm/dt/@datalogix/stylelint-config.svg)](https://www.npmjs.com/package/@datalogix/stylelint-config)
@@ -6,7 +6,7 @@
 [![Codecov](https://img.shields.io/codecov/c/github/datalogix/stylelint-config)](https://codecov.io/gh/datalogix/stylelint-config)
 [![License](https://img.shields.io/npm/l/@datalogix/stylelint-config.svg)](LICENSE)
 
-> StyleLint [shareable config](https://stylelint.io/user-guide/cli/)
+> Stylelint [shareable config](https://stylelint.io/user-guide/cli/)
 
 ## Install
 
@@ -16,9 +16,9 @@ npm install --save-dev @datalogix/stylelint-config
 
 ## Usage
 
-> StyleLint [configuration](https://stylelint.io/user-guide/configuration/)
+> Stylelint [configuration](https://stylelint.io/user-guide/configuration/)
 
-Add some StyleLint config to your `.stylelintrc`:
+Add some Stylelint config to your `.stylelintrc`:
 
 ```json
 {
@@ -44,7 +44,7 @@ Install
 npm install --save-dev stylelint-scss
 ```
 
-Add some StyleLint config to your `.stylelintrc`:
+Add some Stylelint config to your `.stylelintrc`:
 
 ```json
 {

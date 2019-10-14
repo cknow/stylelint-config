@@ -2,7 +2,7 @@
   "name": "@datalogix/stylelint-config",
   "version": "0.0.0-semantically-released",
   "private": false,
-  "description": "StyleLint shareable config",
+  "description": "Stylelint shareable config",
   "keywords": [
     "check",
     "checker",
