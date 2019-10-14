@@ -4,7 +4,8 @@ module.exports = {
     'property-case': 'lower',
     'property-no-unknown': [true, {
       checkPrefixed: false,
-      ignoreProperties: []
+      ignoreProperties: [],
+      ignoreSelectors: []
     }],
     'property-no-vendor-prefix': [true, {
       ignoreProperties: []
