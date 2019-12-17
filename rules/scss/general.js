@@ -7,6 +7,7 @@ module.exports = {
         'nested-at-rule'
       ],
       ignoreInsideAtRules: []
-    }]
+    }],
+    'scss/no-duplicate-mixins': true
   }
 }
